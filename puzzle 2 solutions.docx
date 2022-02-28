@@ -1,0 +1,11 @@
+I created a simple RESTAPI based on django rest framework and it returns the name and email in response.
+
+The link of my docker image in docker hub is : https://hub.docker.com/repository/docker/khsasbin/simple-docker-application
+
+In order to pull the docker container and run follow the following commands:
+
+docker pull khsasbin/simple-docker-application:latest
+docker run -it --rm  -p 8000:8000 khsasbin/simple-docker-application:latest
+
+
+Click the link http://localhost:8000/api/email/ to view the response
