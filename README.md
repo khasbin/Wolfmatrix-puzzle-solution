@@ -19,4 +19,6 @@ In order to pull the docker container and run follow the following commands:
 docker pull khsasbin/simple-docker-application:latest
 docker run -it --rm  -p 8000:8000 khsasbin/simple-docker-application:latest
 ```
+Browse http://localhost:8000/api/email/ and see what it returns.
+
 Similarly a word file containing the source code is also present.
